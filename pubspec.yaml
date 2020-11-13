@@ -1,0 +1,23 @@
+name: audio_service_example
+description: Demonstrates how to use the audio_service plugin with audioplayers.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^1.6.10
+  audio_service: ^0.15.3
+  audioplayers: ^0.16.2
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
